@@ -4,13 +4,13 @@ import { Star } from "lucide-react";
 export function Testimonials() {
   return (
     <section id="testimonials" className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               What Our Customers Say
             </h2>
-            <p className="max-w-[900px] text-gray-600 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+            <p className="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               See how construction companies are growing their business with
               BuildCRM.
             </p>
@@ -34,21 +34,21 @@ export function Testimonials() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 mb-4">
+              <p className="mb-4">
                 &quot;BuildCRM has completely transformed how we manage our
                 construction projects. We&apos;ve increased our project
                 completion rate by 40% and our client satisfaction scores are
                 through the roof.&quot;
               </p>
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
-                  <span className="text-sm font-semibold text-orange-600">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center">
+                  <span className="text-sm font-semibold">
                     MJ
                   </span>
                 </div>
                 <div>
                   <div className="font-semibold text-sm">Mike Johnson</div>
-                  <div className="text-xs text-gray-600">
+                  <div className="text-xs">
                     CEO, Johnson Construction
                   </div>
                 </div>
@@ -76,14 +76,14 @@ export function Testimonials() {
                 itself within the first month.&quot;
               </p>
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
-                  <span className="text-sm font-semibold text-orange-600">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center">
+                  <span className="text-sm font-semibold">
                     SR
                   </span>
                 </div>
                 <div>
                   <div className="font-semibold text-sm">Sarah Rodriguez</div>
-                  <div className="text-xs text-gray-600">
+                  <div className="text-xs">
                     Owner, Rodriguez Builders
                   </div>
                 </div>
@@ -107,20 +107,20 @@ export function Testimonials() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-600 mb-4">
+              <p className="mb-4">
                 &quot;As we&apos;ve grown from 5 to 50 employees, BuildCRM has
                 scaled with us perfectly. The project coordination features keep
                 everyone on the same page.&quot;
               </p>
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 bg-orange-100 rounded-full flex items-center justify-center">
-                  <span className="text-sm font-semibold text-orange-600">
+                <div className="w-8 h-8 rounded-full flex items-center justify-center">
+                  <span className="text-sm font-semibold">
                     DT
                   </span>
                 </div>
                 <div>
                   <div className="font-semibold text-sm">David Thompson</div>
-                  <div className="text-xs text-gray-600">
+                  <div className="text-xs">
                     Project Manager, Elite Construction
                   </div>
                 </div>

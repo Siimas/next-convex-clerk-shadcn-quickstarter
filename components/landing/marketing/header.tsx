@@ -4,33 +4,33 @@ import Link from "next/link";
 
 export function Header() {
   return (
-    <header className="px-4 lg:px-6 h-16 flex items-center border-b bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 sticky top-0 z-50">
+    <header className="px-4 lg:px-6 h-16 flex items-center border-b backdrop-blur sticky top-0 z-50">
       <Link href="/" className="flex items-center justify-center">
-        <Building2 className="h-8 w-8 text-orange-600" />
-        <span className="ml-2 text-xl font-bold text-gray-900">BuildCRM</span>
+        <Building2 className="h-8 w-8" />
+        <span className="ml-2 text-xl font-bold">BuildCRM</span>
       </Link>
       <nav className="ml-auto flex gap-4 sm:gap-6">
         <Link
           href="#features"
-          className="text-sm font-medium hover:text-orange-600 transition-colors"
+          className="text-sm font-medium transition-colors"
         >
           Features
         </Link>
         <Link
           href="#pricing"
-          className="text-sm font-medium hover:text-orange-600 transition-colors"
+          className="text-sm font-medium transition-colors"
         >
           Pricing
         </Link>
         <Link
           href="#testimonials"
-          className="text-sm font-medium hover:text-orange-600 transition-colors"
+          className="text-sm font-medium transition-colors"
         >
           Reviews
         </Link>
         <Link
           href="#contact"
-          className="text-sm font-medium hover:text-orange-600 transition-colors"
+          className="text-sm font-medium transition-colors"
         >
           Contact
         </Link>
@@ -39,7 +39,7 @@ export function Header() {
         <Button variant="ghost" size="sm">
           Sign In
         </Button>
-        <Button size="sm" className="bg-orange-600 hover:bg-orange-700">
+        <Button size="sm">
           Get Started
         </Button>
       </div>

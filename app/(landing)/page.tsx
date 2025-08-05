@@ -1,5 +1,6 @@
 import { CTA } from "@/components/landing/marketing/cta";
 import { Features } from "@/components/landing/marketing/features";
+import { Footer } from "@/components/landing/marketing/footer";
 import { Header } from "@/components/landing/marketing/header";
 import { Hero } from "@/components/landing/marketing/hero";
 import { Stats } from "@/components/landing/marketing/stats";
@@ -16,11 +17,7 @@ export default function Page() {
         <Testimonials />
         <CTA />
       </main>
-      <footer className="border-t">
-        <div className="container container-edge py-10 text-sm text-muted-foreground">
-          © {new Date().getFullYear()} BuildTrak CRM. All rights reserved.
-        </div>
-      </footer>
+      <Footer/>
     </div>
   );
 }
